@@ -1,4 +1,5 @@
 #program to write good morning as per time 
+
 # import time
 # present_time = time.strftime('%H: %T: %S')
 # present_time = int(time.strftime('%H'))
