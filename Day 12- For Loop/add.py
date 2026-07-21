@@ -1,4 +1,4 @@
-#Q1 - find sum of first n numbers:
+# #Q1 - find sum of first n numbers:
 
 # n = int(input("Enter a num:"))
 # sum = 0
@@ -9,13 +9,19 @@
 # print(sum)
 
 
-# factorial of first n numbers:
+# # factorial of first n numbers:
+
+# n = int(input("enter a number:"))
+# factorial = 1
+# i = 1
+
+# while(i <= n):
+#     factorial = factorial *i
+#     i += 1
+# print(factorial)
 
 n = int(input("enter a number:"))
-factorial = 1
-i = 1
-
-while(i <= n):
-    factorial = factorial *i
-    i += 1
-print(factorial)
+fact = 1
+for f in range(1, n+1):
+    fact = fact* f
+print(fact)
