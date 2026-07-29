@@ -7,35 +7,35 @@ Questions = [["1. Which Country has the great Wall?",
              "B: India", 
              "C: Italy", 
              "D: France",
-             "ANS: A", 1000],
+             "A", 1000],
 
             ["2: Which Country is the home to Pyramids?",
              "options:" "A :India", 
              "B: Egypt", 
              "C: Greece", 
              "D:Mexico",
-             "ANS: B", 2000],
+             "B", 2000],
 
             ["3: Which planet is known for Red Planet?",
              "options:" "A: Earth", 
              "B: Jupiter", 
              "C: Mars", 
              "venus",
-             "ANS: C", 3000],
+             "C", 3000],
 
              ["4: Which is the largest ocean in the world?",
              "options:" "A: pacific ocean", 
              "B: Artic ocean", 
              "C:Indian ocean", 
              "D:Atlantic ocean",
-             "ANS: A", 4000],
+             "A", 4000],
 
              ["5: Which country is famous for chocholates?",
              "options:" "A: India",
                "B: Switzerland", 
                "C: Russia", 
                "D: Turkey",
-             "ANS: B", 5000]
+             "B", 5000]
 ]
 amount = 0
 for i in range(len(Questions)):
